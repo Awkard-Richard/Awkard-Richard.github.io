@@ -10,7 +10,7 @@ body {
 /* 100px font size requested in the spec document was changed to a percentage that was a. more visually appealing and b. produced a relative size consistent with the spec document  */
 header {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
-  font-size: 330%;
+  font-size: 3em;
   font-weight: bold;
   color: khaki;
   text-align: center;

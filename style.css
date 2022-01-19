@@ -43,3 +43,25 @@ h2 {
   font-weight: bold;
   color: blue;
 }
+
+/*Code below runs when the screen is re-sized to 650px. In other words this is used when we want to create mobile friendly sites. One thing I've heard over and over agin is that you should start your sites mobile first. Do a before and after while resizing your original code and this one and play around with the settings. For example ~ if you want to see major changes. Change the background colour of the body tag below or the one above*/
+
+@media only screen and (max-width: 650px) {
+  body {
+
+  font-family: Helvetica !important;
+  border-style: solid;
+  padding: 10px;
+  border-color: red;
+  border-width: 2px;
+  margin: 8%;
+  }
+
+    header {
+  background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
+  font-size: 2rem;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  justify-content: center;
+}

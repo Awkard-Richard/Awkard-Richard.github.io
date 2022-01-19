@@ -1,23 +1,28 @@
 body {
   font-family: Helvetica !important;
   border-style: solid;
-  margin: 8%;
   padding: 7px;
   border-color: red;
   border-width: 2px;
+  margin: 8%;
 }
 
 /* 100px font size requested in the spec document was changed to a percentage that was a. more visually appealing and b. produced a relative size consistent with the spec document  */
+
+/*I changed the font size to use the rem keyword. This makes the font more responsive to any changes with the screen. Same with the h2 tag*/
+
 header {
   background-image: url('https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg');
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: bold;
   color: khaki;
   text-align: center;
+
+  justify-content: center;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: bold;
   color: white;
 }

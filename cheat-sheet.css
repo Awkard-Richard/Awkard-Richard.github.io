@@ -1,21 +1,21 @@
 /* Background images and fonts */
 body.home {
   background-image: url('https://i.postimg.cc/QdCwcpvb/wallpaper3.jpg');
-  background-size: 100%;
+  background-size: cover;
   font-family: 'Open Sans';
   font-weight: 400;
 }
 
 body.htmlpage {
   background-image: url('https://i.postimg.cc/SKqQy1ns/wallpaper1.jpg');
-  background-size: 100%;
+  background-size: cover;
   font-family: 'Open Sans';
   font-weight: 400;
 }
 
 body.csspage {
   background-image: url('https://i.postimg.cc/C5Jrq1NX/wallpaper2.jpg');
-  background-size: 100%;
+  background-size: cover;
   font-family: 'Open Sans';
   font-weight: 400;
 }

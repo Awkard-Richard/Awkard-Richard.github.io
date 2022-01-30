@@ -1,0 +1,132 @@
+/* Background images and fonts */
+body.home {
+  background-image: url('https://i.postimg.cc/QdCwcpvb/wallpaper3.jpg');
+  /* image removal link: https://postimg.cc/delete/fptpCH0Q/7794ec72 */
+  background-size: 100%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+body.htmlpage {
+  background-image: url('https://i.postimg.cc/SKqQy1ns/wallpaper1.jpg');
+  /* image removal link: https://postimg.cc/delete/dgQQLPxj/43439ab3 */
+  background-size: 100%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+body.csspage {
+  background-image: url('https://i.postimg.cc/C5Jrq1NX/wallpaper2.jpg');
+  /* image removal link: https://postimg.cc/delete/5hKKqv4t/5475227a */
+  background-size: 100%;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+/* The following removes the underlines from <a> elements. Note that the order
+is important i.e. link, visited, hover, active */
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: none;}
+a:active {text-decoration: none;}
+
+/* Navigation links in top left of pages */
+nav {
+  padding: 1em;
+  font-size: 150%;
+}
+
+.home nav [href] {
+  color: #EFE265;
+}
+
+.home nav [href]:hover {
+  color: black;
+}
+
+.htmlpage nav [href] {
+  color: #F41A1A;
+}
+
+.htmlpage nav [href]:hover {
+  color: black;
+}
+
+.csspage nav [href] {
+  color: #EFE265;
+}
+
+.csspage nav [href]:hover {
+  color: black;
+}
+
+/* Titles and intro */
+h1 {
+  font-size: 300%;
+}
+
+#intro {
+  font-size: 200%;
+}
+
+h1, #intro {
+  text-align: center;
+    /* hsl(123, 52%, 46%) */
+  color: #38B23E;
+  font-weight: bold;
+}
+
+.csspage h1 {
+  color: #952F97;
+}
+
+/* Main home page links to HTML and CSS pages */
+#html [href] {
+  color: #23E5DB;
+}
+
+#html [href]:hover {
+  color: white;
+}
+
+#css [href] {
+  color: #0D148B;
+}
+
+#css [href]:hover {
+  color: white;
+}
+
+.dir {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 450%;
+}
+
+/* HTML page table */
+table {
+  table-layout: auto;
+  width: 100%;
+  border: 2px solid black;
+  display: block;
+  border-spacing: 0;
+  border-collapse: collapse;
+  text-align: left;
+  letter-spacing: 0.12rem;
+}
+
+th {
+  font-size: 150%
+  text-align: center;
+  padding: 0.15rem 0.45rem 0.15rem;
+}
+
+td{
+  border: 1px solid black;
+  border-spacing: 0;
+  padding: 0.15rem 0.45rem 0.15rem;
+}
+
+td.col1 {
+  text-align: center;
+}

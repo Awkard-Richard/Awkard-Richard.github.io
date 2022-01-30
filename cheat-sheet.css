@@ -1,7 +1,6 @@
 /* Background images and fonts */
 body.home {
   background-image: url('https://i.postimg.cc/QdCwcpvb/wallpaper3.jpg');
-  /* image removal link: https://postimg.cc/delete/fptpCH0Q/7794ec72 */
   background-size: 100%;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -9,7 +8,6 @@ body.home {
 
 body.htmlpage {
   background-image: url('https://i.postimg.cc/SKqQy1ns/wallpaper1.jpg');
-  /* image removal link: https://postimg.cc/delete/dgQQLPxj/43439ab3 */
   background-size: 100%;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -17,7 +15,6 @@ body.htmlpage {
 
 body.csspage {
   background-image: url('https://i.postimg.cc/C5Jrq1NX/wallpaper2.jpg');
-  /* image removal link: https://postimg.cc/delete/5hKKqv4t/5475227a */
   background-size: 100%;
   font-family: 'Open Sans';
   font-weight: 400;
